@@ -8,6 +8,6 @@ import com.badlogic.gdx.graphics.GL10
 
 object Main {
   def main(args: Array[String]): Unit = {
-    new LwjglApplication(new Pantalla(), "Poligonizador", 480, 320, true)
+    new LwjglApplication(new Pantalla(), "Poligonizador", 480, 320, false)
   }
 }
